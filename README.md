@@ -363,13 +363,10 @@ CONTACT CODE:
 
 
 ## OUTPUT:
+![prod 1](https://user-images.githubusercontent.com/118680361/215249942-bdca6788-0081-4392-95fc-1d33a2cb79dc.jpg)
+![prod2](https://user-images.githubusercontent.com/118680361/215249956-72dde188-c20a-4775-acfc-48ad1e9c791c.jpg)
+![prod3](https://user-images.githubusercontent.com/118680361/215249974-2e2156ec-bbe9-4376-bf71-e685ec8a6ee2.jpg)
 
-![home](https://user-images.githubusercontent.com/118680361/215240926-ecb917f6-40f2-423d-9d9c-b8c05f533b4b.jpg)
-![product](https://user-images.githubusercontent.com/118680361/215240928-b0c07f28-b111-40a0-a16b-276de82faff2.jpg)
-
-
-
-![contact](https://user-images.githubusercontent.com/118680361/215240916-fd444517-cf2d-4e3b-baa6-bef2450a3d13.jpg)
 
 
 
