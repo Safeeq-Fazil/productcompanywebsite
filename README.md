@@ -346,7 +346,7 @@ CONTACT CODE:
          </div>        
       </div>
       <div class="footer">
-        Copyright &#169; 2021 TCS Private Limited, Developed by Thamarai selvan.
+        Copyright &#169; 2021 TCS Private Limited, Developed by safeeq fazil.
       </div>
     </div>
   </body>
