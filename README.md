@@ -35,451 +35,324 @@ Validate the HTML code.
 Publish the website in the given URL.
 
 ## PROGRAM :
+```
+HOME CODE:
 <!DOCTYPE html>
-{% load static %}
 <html lang="en">
   <head>
-    <title>Aj-Private Limited</title>
-    <link rel="stylesheet" href="static/css/layout.css" />
-    <link rel="icon" href="static/images/icon.png" type="image/x-icon" />
+    <title>TCS Private Limited</title>
+    <link rel="stylesheet" href="./css/layout.css" />
+    <link rel="icon" href="./img/CCTV.png" type="image/x-icon" />
   </head>
 
   <body>
     <div class="container">
-      <div class="banner">AJ-Private Limited</div>
+      <div class="banner">TCS Private Limited.</div>
       <div class="menu">
-        <div class="menuitemselected"><a href="company.html">Home</a></div>
-        <div class="menuitem"><a href="product.html">Products</a></div>
-        <div class="menuitem"><a href="people.html">People</a></div>
-        <div class="menuitem"><a href="contact.html">Contact Us</a></div>
+        <div class="menuitemselected"><a href="/static/home.html">Home</a></div>
+        <div class="menuitem"><a href="/static/products.html">Products</a></div>
+        <div class="menuitem"><a href="/static/People.html">People</a></div>
+        <div class="menuitem"><a>Contact Us</a></div>
       </div>
       <div class="content">
         <div class="homecontent">
           <h1>About Us</h1>
-          <img src="static/images/iron.png" style="width:300px; height:300px;" />
+          <img src="./img/cctv.jpg" alt="Building" />
           <div class="contenttext">
             At Tally, we believe in the power of technology to make business
             owners efficient, empowered and happier, so they can focus on what
             matters most for their business. We design our products to focus on
             just that to make our products work for you, and not the other way
             around.
-            <br />
-            Our new product TallyPrime takes this to a new level, making your
-            start to automation, or your switch to Tally simpler than ever
-            before. You can now discover the product much more easily and make
-            the product do more for you, without learning anything new. There is
-            greater flexibility as the product adapts to your business and your
-            way of working. And the transformed look and feel will only make you
-            love the product even more.
+            <br/>
+            
             <ul>
-              <li>Simple to learn, easier to use</li>
-              <li>Insightful , actionable & customizable reports</li>
+              <li>can secure the area.</li>
+              <li>can solve many crimes</li>
               <li>Anywhere, anytime and secure access</li>
             </ul>
           </div>
         </div>
       </div>
       <div class="footer">
-                Copyright &#169; 2022 Aj-Private.LTD, Developed by Ajay Aswin.M
-
+        Copyright &#169; 2021 TCS Private Limited, Developed by Thamarai selvan.
       </div>
     </div>
   </body>
 </html>
-
-product html
-
+```
+PRODUCT CODE:
+```
 <!DOCTYPE html>
-{% load static %}
 <html lang="en">
   <head>
-    <title>Aj-Private Limited</title>
-    <link rel="stylesheet" href="static/css/layout.css" />
-    <link rel="icon" href="static/images/icon.png" type="image/x-icon" />
+    <title>EduSoft Private Limited</title>
+    <link rel="stylesheet" href="./css/layout.css" />
+    <link rel="icon" href="./img/icon.png" type="image/x-icon" />
   </head>
 
   <body>
     <div class="container">
-      <div class="banner">AJ-Private Limited.</div>
+      <div class="banner">TCS Private Limited.</div>
       <div class="menu">
-        <div class="menuitem"><a href="company.html">Home</a></div>
+        <div class="menuitem"><a href="/static/home.html">Home</a></div>
         <div class="menuitemselected">
-          <a href="product.html">Products</a>
+          <a href="/static/products.html">Products</a>
         </div>
-        <div class="menuitem"><a href="people.html">People</a></div>
-        <div class="menuitem"><a href="contact.html">Contact Us</a></div>
-    </div>
+        <div class="menuitem"><a>People</a></div>
+        <div class="menuitem"><a>Contact Us</a></div>
+      </div>
       <div class="content">
         <div class="productcontent">    
           <h1>Our Premium Products</h1>
           <div class="productitems">
               <div class="productitem"> 
                   <div class="itemimage">
-                  <img src="static/images/tally_gold.png" alt="product image">
+                  <img src="./img/CCTV2.jpg" alt="product image">
                   </div>
-                  <div class="itemname">Tally Gold</div>
-                  <div class="itemprice">Price: Rs.40,000.00 </div>
+                  <div class="itemname">EXCEL</div>
+                  <div class="itemprice">Price: Rs.600.00 </div>
               </div>
               <div class="productitem"> 
                   <div class="itemimage">
-                  <img src="static/images/tally_silver.png"  alt="product image">
+                  <img src="./img/CCTV1.jpg"  alt="product image">
                   </div>
-                  <div class="itemname">Tally Silver</div>
-                  <div class="itemprice">Price: Rs.10,000.00 </div>
+                  <div class="itemname">WORD</div>
+                  <div class="itemprice">Price: Rs.1,000.00 </div>
               </div>
-
+             
               <div class="productitem"> 
                   <div class="itemimage">
-                  <img src="static/images/img/img1.png"  alt="product image">
+                  <img src="./img/CCTV3.jpg"  alt="product image">
                   </div>
-                  <div class="itemname">Tally Simple Steps</div>
-                  <div class="itemprice">Price: Rs.12,000.00 </div>
+                  <div class="itemname">GLIDE</div>
+                  <div class="itemprice">Price: Rs.1,200.00 </div>
               </div>
-
-              <div class="productitem"> 
-                  <div class="itemimage">
-                  <img src="static/images/img/img2.png"  alt="product image">
-                  </div>
-                  <div class="itemname">Tally Author edision </div>
-                  <div class="itemprice">Price: Rs.14,000.00 </div>
-              </div>
-
-              <div class="productitem"> 
-                  <div class="itemimage">
-                  <img src="static/images/img/img3.png"  alt="product image">
-                  </div>
-                  <div class="itemname">Tally GST</div>
-                  <div class="itemprice">Price: Rs.15,000.00 </div>
-              </div>
-
-              <div class="productitem"> 
-                  <div class="itemimage">
-                  <img src="static/images/img/img4.png"  alt="product image">
-                  </div>
-                  <div class="itemname">Tally PRIME</div>
-                  <div class="itemprice">Price: Rs.18,000.00 </div>
-              </div>
-
-              <div class="productitem"> 
-                  <div class="itemimage">
-                  <img src="static/images/img/img5.png"  alt="product image">
-                  </div>
-                  <div class="itemname">Tally Essential</div>
-                  <div class="itemprice">Price: Rs.11,000.00 </div>
-              </div>
-
-              <div class="productitem"> 
-                  <div class="itemimage">
-                  <img src="static/images/img/img6.png"  alt="product image">
-                  </div>
-                  <div class="itemname">Tally Power of simplcity </div>
-                  <div class="itemprice">Price: Rs.13,000.00 </div>
-              </div>
-
-              <div class="productitem"> 
-                  <div class="itemimage">
-                  <img src="static/images/img/img7.png"  alt="product image">
-                  </div>
-                  <div class="itemname">Tally Impleating</div>
-                  <div class="itemprice">Price: Rs.14,000.00 </div>
-              </div>
-
-              <div class="productitem"> 
-                  <div class="itemimage">
-                  <img src="static/images/img/img8.png"  alt="product image">
-                  </div>
-                  <div class="itemname">Tally Advance</div>
-                  <div class="itemprice">Price: Rs.20,000.00 </div>
-              </div>
-
-              <div class="productitem"> 
-                  <div class="itemimage">
-                  <img src="static/images/img/img9.png"  alt="product image">
-                  </div>
-                  <div class="itemname">Tally GST 4th edision</div>
-                  <div class="itemprice">Price: Rs.19,000.00 </div>
-              </div>
-
-              
             
+              <div class="productitem"> 
+                  <div class="itemimage">
+                  <img src="./img/CCTV4.jpg"  alt="product image">
+                  </div>
+                  <div class="itemname">OUTLOOK</div>
+                  <div class="itemprice">Price: Rs.1,400.00 </div>
+              </div> 
+
+              <div class="productitem"> 
+                  <div class="itemimage">
+                  <img src="./img/CCTV5.jpg"  alt="product image">
+                  </div>
+                  <div class="itemname">VISIO</div>
+                  <div class="itemprice">Price: Rs.1500.00 </div>
+              </div>
+
+               <div class="productitem"> 
+                  <div class="itemimage">
+                  <img src="./img/CCTV6.jpg"  alt="product image">
+                  </div>
+                  <div class="itemname"> ONE DRIVE </div>
+                  <div class="itemprice">Price: Rs.1800.00 </div>
+              </div>
               
-          </div>
+              <div class="productitem"> 
+                  <div class="itemimage">
+                  <img src="./img/CCTV7.jpg"  alt="product image">
+                  </div>
+                  <div class="itemname">YAMMER</div>
+                  <div class="itemprice">Price: Rs.2,000.00 </div>
+              </div> 
+
+               <div class="productitem"> 
+                  <div class="itemimage">
+                  <img src="./img/CCTV8.jpg"  alt="product image">
+                  </div>
+                  <div class="itemname">SHARE POINT</div>
+                  <div class="itemprice">Price: Rs.2,000.00 </div>
+              </div> 
+               
+              <div class="productitem"> 
+                  <div class="itemimage">
+                  <img src="./img/CCTV9.jpg"  alt="product image">
+                  </div>
+                  <div class="itemname">POWERPOINT</div>
+                  <div class="itemprice">Price: Rs.2,500.00 </div>
+              </div>
+
+              <div class="productitem"> 
+                  <div class="itemimage">
+                  <img src="./img/CCTV10.jpg"  alt="product image">
+                  </div>
+                  <div class="itemname">FORMS</div>
+                  <div class="itemprice">Price: Rs.1,500.00 </div>
+              </div>
+            
+               <div class="productitem"> 
+                  <div class="itemimage">
+                  <img src="./img/CCTV11.jpg"  alt="product image">
+                  </div>
+                  <div class="itemname">STREAM</div>
+                  <div class="itemprice">Price: Rs.2,400.00 </div>
+              </div>
+
+              <div class="productitem"> 
+                  <div class="itemimage">
+                  <img src="./img/CCTV12.jpg"  alt="product image">
+                  </div>
+                  <div class="itemname">ACCESS</div>
+                  <div class="itemprice">Price: Rs.2,400.00 </div>
+              </div>
+
           </div>        
       </div>
       <div class="footer">
-        Copyright &#169; 2022 Aj-Private.LTD, Developed by Ajay Aswin.M
+        Copyright &#169; 2021 TCS Private Limited, Developed by thamarai selvan.
       </div>
     </div>
   </body>
 </html>
-people html
+```
 
+PEOPLE CODE:
+```
 <!DOCTYPE html>
-{% load static %}
 <html lang="en">
   <head>
-    <title>Aj-Private Limited</title>
-    <link rel="stylesheet" href="static/css/layout.css" />
-    <link rel="icon" href="static/images/icon.png" type="image/x-icon" />
+    <title>TCS Private Limited</title>
+    <link rel="stylesheet" href="./css/layout.css" />
+    <link rel="icon" href="./img/icon.png" type="image/x-icon" />
   </head>
 
   <body>
     <div class="container">
-      <div class="banner">AJ-Private Limited.</div>
+      <div class="banner">TCS Private Limited.</div>
       <div class="menu">
-        <div class="menuitem"><a href="company.html">Home</a></div>
-         <div class="menuitem">
-          <a href="product.html">Products</a></div>
-        <div class="menuitemselected"><a href="people.html">People</a></div>
-        <div class="menuitem"><a href="contact.html">Contact Us</a></div>
-        
-        <div class="content">
-        <div class="productcontent">    
-          <h1>People Of Company </h1>
-          <figure>
-
-        
-        <p>
-            <img src="static/images/img2/pre.png"
-        width="332px" height="277px"> 
-        </p>
-        <figcaption> <h2>PRESIDENT</h2></figcaption>
-        <hr>
-        
-      
-        <p>
-            <img src="static/images/img2/fou.png"
-        width="332px" height="277px"> 
-        </p>
-        <figcaption> <h2>FOUNDER</h2></figcaption>
-        <hr>
-        
-        
-       <p>
-            <img src="static/images/img2/mang.png"
-        width="332px" height="277px"> 
-        </p>
-        <figcaption> <h2>CO-FOUNDER</h2></figcaption>
-        <hr>
-        
-        
-        <p>
-            <img src="static/images/img2/head.png"
-        width="332px" height="277px"> 
-        </p>
-        <figcaption> <h2>DIRECTOR</h2></figcaption>
-        <hr>
-        
-        
-        <p>
-            <img src="static/images/img2/vk.png"
-        width="332px" height="277px"> 
-        </p>
-        <figcaption> <h2>MANAGER</h2></figcaption>
-        <hr>
-
-        <p>
-            <img src="static/images/img2/aj.png"
-        width="332px" height="277px"> 
-        </p>
-        <figcaption> <h2>HEAD</h2></figcaption>
-        <hr>
-       </figure>
-          </div>
-      </div>
-       <div class="footer">
-       Copyright &#169; 2022 Aj-Private.LTD, Developed by Ajay Aswin.M
-     </div>
-    </div>
-    
-    
-    
-  </body>
- 
-</html>
-contant html
-
-<!DOCTYPE html>
-{% load static %}
-<html lang="en">
-  <head>
-    <title>Aj</title>
-    <link rel="stylesheet" href="static/css/layout.css" />
-    <link rel="icon" href="static/images/icon2.png" type="image/x-icon" />
-  </head>
-
-  <body>
-    <div class="container">
-      <div class="banner">AJ-Private Limited</div>
-      <div class="menu">
-        <div class="menuitem"><a href="company.html">Home</a></div>
-        <div class="menuitem"><a href="product.html">Products</a></div>  
-        <div class="menuitem"><a href="people.html">People</a></div>
-        <div class="menuitemselected"><a href="contact.html">Contact Us</a></div>
-      </div>
-      
-        <div class="content">
-           <h1>Our Contact Address</h1>  
-        
-          <div class="contacttext">
-           Phone:8248965167
-           <br>Email-address:ajprivatelimited@email.com
-          </div>
+        <div class="menuitem"><a href="/static/home.html">Home</a></div>
+        <div class="menuitemselected">
+          <a href="/static/people.html">People</a>
         </div>
+        <div class="menuitem"><a>product</a></div>
+        <div class="menuitem"><a>Contact Us</a></div>
+      </div>
+      <div class="content">
+        <div class="productcontent">    
+          <h1>Our PEOPLES</h1>
+          <div class="productitems">
+              <div class="productitem"> 
+                  <div class="itemimage">
+                  <img src="./img/p1.jpg" alt="product image">
+                  </div>
+                  <div class="itemname">Mr.G.Thiru</div>
+                  <div class="itemprice">FOUNDER OF TCS</div>
+              </div>
+              <div class="productitem"> 
+                  <div class="itemimage">
+                  <img src="./img/p2.jpg"  alt="product image">
+                  </div>
+                  <div class="itemname">Ian goodfellow</div>
+                  <div class="itemprice">post:CEO</div>
+              </div>
+             
+              <div class="productitem"> 
+                  <div class="itemimage">
+                  <img src="./img/p3.jpg"  alt="product image">
+                  </div>
+                  <div class="itemname">joo-hoo ley </div>
+                  <div class="itemprice">Post:research director </div>
+              </div>
+            
+              <div class="productitem"> 
+                  <div class="itemimage">
+                  <img src="./img/p4.jpg"  alt="product image">
+                  </div>
+                  <div class="itemname">jeremy howard fastai</div>
+                  <div class="itemprice">Post: product designer</div>
+              </div> 
 
-     
-<div class="footer">
-  Copyright &#169; 2022 Aj-Private.LTD, Developed by Ajay Aswin.M
-</div>
-</div>
-</body>
+              <div class="productitem"> 
+                  <div class="itemimage">
+                  <img src="./img/p5.jpg"  alt="product image">
+                  </div>
+                  <div class="itemname">Ruslan salakhutdinov </div>
+                  <div class="itemprice">Post: manufacturing specialist </div>
+              </div>
+
+               <div class="productitem"> 
+                  <div class="itemimage">
+                  <img src="./img/p6.jpg"  alt="product image">
+                  </div>
+                  <div class="itemname">Steven Sasson</div>
+                  <div class="itemprice">Post: coordinator</div>
+              </div>
+              
+
+          </div>        
+      </div>
+      <div class="footer">
+        Copyright &#169; 2021 TCS Private Limited, Developed by Thamarai selvan.
+      </div>
+    </div>
+  </body>
 </html>
-css
+```
 
-* {
-  box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
-}
-body {
-  background-color: lightblue;
-  color: #17421d;
-}
-.container {
-  width: 1080px;
-  margin-left: auto;
-  margin-right: auto;
-  border-width: 1px 1px 1px 1px;
-  border-style: solid BLACK;
-  box-shadow: 15px 15px 8px gray;
-}
+CONTACT CODE:
+```
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>TCS Private Limited</title>
+    <link rel="stylesheet" href="./css/layout.css" />
+    <link rel="icon" href="./img/icon.png" type="image/x-icon" />
+  </head>
 
-.banner {
-  display: block;
-  width: 100%;
-  height: 250px;
-  text-align: center;
-  font-size: 60px;
-  background-image: url("/static/images/back.png");
-  background-size: 100% 100%;
-  margin: 0px 0px 0px 0px;
-  padding-top: 150px;
-  color: BLACK;
-}
+  <body>
+    <div class="container">
+      <div class="banner">TCS Private Limited.</div>
+      <div class="menu">
+        <div class="menuitem"><a href="/static/home.html">Home</a></div>
+        <div class="menuitemselected">
+          <a href="/static/contact us.html">contact us</a>
+        </div>
+        <div class="menuitem"><a>product</a></div>
+        <div class="menuitem"><a>people</a></div>
+      </div>
+      <div class="content">
+        <div class="productcontent">    
+          <h1>TO CONTACT US</h1>
+          <div class="productitems">
+              <div class="productitem"> 
+                  <div class="itemimage">
+                  <img src="./img/c1.jpg" alt="product image">
+                  </div>
+                  <div class="itemname">Call us: </div>
+                  <div class="itemprice">6381366409</div>
+              </div>
+              <div class="productitem"> 
+                  <div class="itemimage">
+                  <img src="./img/c2.jpg"  alt="product image">
+                  </div>
+                  <div class="itemname">Mail us:</div>
+                  <div class="itemprice">eyespyindia@gmail.com</div>
+              </div>
+             
+              <div class="productitem"> 
+                  <div class="itemimage">
+                  <img src="./img/c3.jpg"  alt="product image">
+                  </div>
+                  <div class="itemname">Reach us:</div>
+                  <div class="itemprice">Block-87,Gandhi nagar,Chennai-81,Tamilnadu,India.</div>
+              </div>
+             
 
-.menu {
-  display: block;
-  width: 100%;
-  height: 50px;
-  font-size: larger;
-  background-color: rgb(255, 123, 0);
-  text-align: center;
-  padding-top: 15px;
-  margin: 0px 0px 0px 0px;
-  border-width: 1px;
-}
+         </div>        
+      </div>
+      <div class="footer">
+        Copyright &#169; 2021 TCS Private Limited, Developed by Thamarai selvan.
+      </div>
+    </div>
+  </body>
+</html>
 
-.menuitem {
-  display: inline-block;
-  margin-left: 10px;
-  margin-right: 10px;
-}
-.menuitemselected {
-  display: inline-block;
-  margin-left: 10px;
-  margin-right: 10px;
-  color: #f80d1d;
-}
-
-.menuitem a {
-  text-decoration: none;
-  color: #fdfdfd;
-}
-
-.content {
-  display: block;
-  width: 100%;
-  background-color: lemonchiffon;
-  min-height: 500px;
-  margin: 0px 0px 0px 0px;
-  border-width: 1px;
-  border-color: white;
-  border-style: solid;
-}
-.homecontent {
-  min-height: 500px;
-  margin: 10px 10px 10px 10px;
-}
-.homecontent h1 {
-  text-align: left;
-}
-.homecontent img {
-  float: right;
-  width: 400px;
-  height: 300px;
-  margin-left: 10px;
-}
-
-.contenttext {
-  text-align: justify;
-}
-
-.productcontent {
-  min-height: 500px;
-  margin: 10px 10px 10px 10px;
-}
-
-.productcontent h1 {
-  text-align: left;
-}
-
-.productitems {
-  display: block;
-}
-
-.productitem {
-  display: inline-block;
-  width: 30%;
-  height: 250px;
-  text-align: center;
-}
-
-.productitem img {
-  width: 100px;
-  height: 100px;
-  display: block;
-}
-.productitem .itemimage {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100px;
-  margin-bottom: 5px;
-}
-
-.productitem .itemname {
-  display: block;
-}
-.productitem .itemprice {
-  display: block;
-}
-
-.footer {
-  display: block;
-  width: 100%;
-  height: 40px;
-  background-color: rgb(255, 123, 0);
-  text-align: center;
-  padding-top: 10px;
-  margin: 0px 0px 0px 0px;
-  color:white;
-}
-.contact{
-    border:100px;
-}
-.contenttext {
-  text-align: justify;
-}
-
+```
 
 
 
@@ -491,10 +364,13 @@ body {
 
 ## OUTPUT:
 
-![prod1](https://user-images.githubusercontent.com/118680361/215132477-950a10d0-6d89-475d-83ff-a282faad312b.png)
-![prod2](https://user-images.githubusercontent.com/118680361/215132551-3f342a15-8902-40ef-824b-2879bfadec6d.png)
-![prod3](https://user-images.githubusercontent.com/118680361/215132600-892f6a50-ac90-4494-b7b4-8bbd94135bb5.png)
-![prod4](https://user-images.githubusercontent.com/118680361/215132680-c2a501cf-3e00-4286-b6f9-b9b581bc8e8e.png)
+![home](https://user-images.githubusercontent.com/118680361/215240926-ecb917f6-40f2-423d-9d9c-b8c05f533b4b.jpg)
+![product](https://user-images.githubusercontent.com/118680361/215240928-b0c07f28-b111-40a0-a16b-276de82faff2.jpg)
+
+
+
+![contact](https://user-images.githubusercontent.com/118680361/215240916-fd444517-cf2d-4e3b-baa6-bef2450a3d13.jpg)
+
 
 
 ## Result:
